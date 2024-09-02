@@ -26,8 +26,6 @@ width: 100%;
   height: 18vh;
   width: 100%;
   background-color: #a1a1a1;
-  position: fixed;
-  z-index: 1;
 margin-top: -5px;
 }
 header img{
@@ -61,7 +59,7 @@ marquee{
   justify-content: center;
   align-items: center;
 
- font-size: 23px;
+ font-size: 18px;
  font-weight: 900;
  background-color:rgb(200, 198, 198);
 }
@@ -99,8 +97,6 @@ marquee{
   gap: 10px; 
   height:10vh;
   width: 100%;
-
- background-color:rgba(200, 198, 198, 0.475);
 }
 .col1 , .col2 , .col3{
   display: flex;
@@ -223,9 +219,9 @@ height: 10%;
  align-items: center;
  gap: 5px;
  border-radius: 0px;
- background: #e0e0e0;
- box-shadow:  5px 5px 8px #a1a1a1,
-              -5px -5px 28px #ffffff;
+ /* background: #e0e0e0; */
+ /* box-shadow:  5px 5px 8px #a1a1a1,
+              -5px -5px 28px #a1a1a1; */
 }
 .service img{
   width: 100%;
@@ -238,21 +234,10 @@ height: 10%;
 .service video{
   width: 100%;
   height: 300px;
-  margin-top: -0px;
+  margin-top: -45px;
   
 }
-.fieldservice p {
-  text-align: justify;
- font-size: 1rem;
-  padding: 7px;
-  font-weight: 400;
- }
- .fieldservice h3 {
-   padding: 2px;
-   font-size: x-large;
-   text-align: left;
-   margin-top: -0px;
- }
+
 .service p {
  text-align: justify;
 font-size: 1rem;
@@ -262,6 +247,10 @@ font-size: 1rem;
   padding: 5px;
   font-size: x-large;
   text-align: center;
+}
+.service h4{
+  font-size: x-large;
+  margin-top:-12px;
 }
 .service a {
  height: 40px;
@@ -298,8 +287,7 @@ font-size: 1rem;
  .contactDetails{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
- 
+  align-items: center;
   height: 100%;
   width: 60%;
   gap: 10px;
@@ -308,6 +296,7 @@ font-size: 1rem;
   font-size: 3rem;
   font-weight: 900;
   height: 10%;
+  text-align: center;
  }
  .contact-info{
   display: flex;
