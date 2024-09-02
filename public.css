@@ -219,9 +219,7 @@ height: 10%;
  align-items: center;
  gap: 5px;
  border-radius: 0px;
- /* background: #e0e0e0; */
- /* box-shadow:  5px 5px 8px #a1a1a1,
-              -5px -5px 28px #a1a1a1; */
+padding: 10px;
 }
 .service img{
   width: 100%;
