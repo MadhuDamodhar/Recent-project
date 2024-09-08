@@ -1,0 +1,33 @@
+.disWorldOfPoss{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+.disWorldOfPoss h2{
+ font-size: 5rem;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid grey;
+  width: 80%;
+}
+.matter{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 60px;
+  text-align: justify;
+  font-size: 21px;
+  line-height: 1.3;
+}
+.matter ul{
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  text-align: justify;
+}
+ul span{
+  font-weight: 600;
+}

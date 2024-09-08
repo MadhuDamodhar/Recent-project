@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
 body{
@@ -26,7 +26,7 @@ width: 100%;
   height: 18vh;
   width: 100%;
   background-color: #a1a1a1;
-margin-top: -5px;
+  margin-top: -5px;
 }
 header img{
   height: 100px;
@@ -40,6 +40,7 @@ header h2{
 .notifications{
   display: flex;
   flex-direction: row;
+  
 }
 .notifications p{
   height: 9vh;
@@ -51,6 +52,7 @@ header h2{
  font-weight: 900;
  background-color:#000000;
  color: white;
+ 
 }
 marquee{
   height: 9vh;
@@ -97,6 +99,7 @@ marquee{
   gap: 10px; 
   height:10vh;
   width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .col1 , .col2 , .col3{
   display: flex;
@@ -122,7 +125,7 @@ marquee{
  color: white;
  text-align: center;
  text-decoration: none;
- padding: 15px;
+ padding: 12px;
 }
 .para a:hover{
   color: white;
@@ -157,7 +160,7 @@ margin-top: 8px;
 .info{
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 20px;
   height: 70%;
   align-items: flex-end;
   justify-content: center;
@@ -182,7 +185,7 @@ margin-top: 8px;
   color: white;
   text-align: center;
   text-decoration: none;
-  padding: 15px;
+  padding: 12px;
 }
 .info a:hover{
   color: white;
@@ -191,9 +194,10 @@ margin-top: 8px;
 .ourServices{
   display: flex;
   flex-direction: column;
-  height: 110vh;
+  height: 100vh;
   width: 100%;
   padding: 20px;
+  padding-top: 60px;
   
 }
 .ourServices h2{
@@ -219,7 +223,7 @@ height: 10%;
  align-items: center;
  gap: 5px;
  border-radius: 0px;
-padding: 10px;
+
 }
 .service img{
   width: 100%;
@@ -227,19 +231,21 @@ padding: 10px;
   object-fit: fill;
  object-position: center;
  margin-top: -10px;
+ 
 }
 
 .service video{
   width: 100%;
   height: 300px;
   margin-top: -45px;
-  
+ 
 }
 
 .service p {
  text-align: justify;
 font-size: 1rem;
  padding: 10px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .service h3 {
   padding: 5px;
@@ -267,59 +273,110 @@ font-size: 1rem;
  }
 
  .img-slider{
-  padding: 20px;
+  padding: 50px;
+ height: 80vh;
+ padding-top: 20px;
+ }
+ .carousel-inner{
+ box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.67) ,2px -2px 10px rgba(0, 0, 0, 0.67);
+height: 80vh;
+  object-fit: cover;
+ }
+ .img-slider .carousel-item img{
+  object-fit: cover;
+  height: 100%;
+  object-position: center;
  }
  .service a:hover{
   color: white;
   text-decoration: none;
  }
+
  .contactUs{
   display: flex;
-  flex-direction: row; 
+  flex-direction: column; 
+ align-items: center;
   padding: 20px;
-  height: 80vh;
+  padding:90px;
+  height: 100vh;
+  width: 100%;
   gap: 10px;
-  align-items: center;
-  
  }
  .contactDetails{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   height: 100%;
-  width: 60%;
-  gap: 10px;
+  width: 100%;
+  gap: 20px;
+  line-height: 1.4;
+
  }
- .contactDetails h2{
+.conatctInfo {
+  font-size: 1.4rem;
+  font-weight: 500; 
+  width: 100%;
+}
+.conatctInfo b{
+ 
+  font-weight: 900; 
+}
+ .address{
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;
+  padding: 10px;
+  padding-left: 0px;
+ }
+ .contactDetails span{
+ font-weight: 900;
+ }
+ .contactUs-title{
   font-size: 3rem;
   font-weight: 900;
   height: 10%;
   text-align: center;
  }
- .contact-info{
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
- }
- .contact-info p{
+ .contactDetails p{
+  line-height: 1.4;
   font-size: 21px;
-  font-weight: 520;
-   gap: 10px;
+  font-weight: 500;
+  text-align: justify;
+
  }
- .contact-info .address{
-  display: flex;
-  flex-direction: column;
-  font-size: 21px;
-  font-weight: 600;
-   gap: 10px;
- }
- .contact-info span{
-  font-weight: 900;
+
+ iframe{
+  height: 100%;
+  width: 100%;
  }
  .footer{
+  padding: 10px;
   height: 30vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+ padding-top: 40px;
   background-color: #a1a1a1;
+  flex-direction: row;
+ }
+ .details p{
+  line-height: .6;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+
+ }
+ .Socialdetails{
+  line-height: .6;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+  cursor: pointer;
+ }
+ .addressDetailsInFooter{
+ 
+  text-align: justify;
+  line-height: 1.5;
+ 
  }

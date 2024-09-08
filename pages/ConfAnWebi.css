@@ -1,0 +1,85 @@
+.ConferencesandWeb {
+  display: flex;
+  flex-direction: column;
+  height: 155vh;  
+}
+.section1 {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 50%;
+  padding: 20px 30px;
+  gap: 50px;
+/* border: 1px solid black; */
+
+justify-content: center;
+}
+
+.section1 p {
+  font-size: 21px;
+  font-weight: 500;
+  text-align: justify;
+  line-height: 1.3;
+  width: 100%;
+}
+
+
+.ConferencesandWeb img {
+  height: 400px;
+  width: 100%;
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.39), 10px -10px 10px rgba(0, 0, 0, 0.364);
+  object-fit: cover;
+  object-position: center;
+ margin-top: 78px;
+
+}
+
+.ConferencesandWeb h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  height: 10%;
+  padding-bottom: 20px;
+  margin-top: -10px;
+}
+
+.ConferencesandWeb span {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.ConferencesandWeb ul li {
+  font-size: 17px;
+ 
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  font-size: 21px;
+  font-weight: 500;
+  text-align: justify;
+  width: 100%;
+ padding:0px  40px;
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+margin-top: -0px;
+}
+
+.section2 ul  {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  padding-bottom: -20px;
+}
+
+.section2 ul li {
+  font-size: 20px;
+  text-decoration: none;
+}
+.section2 p{
+ text-align: justify;
+ 
+}
