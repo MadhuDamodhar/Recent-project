@@ -1,44 +1,52 @@
+
 .ConferencesandWeb {
   display: flex;
   flex-direction: column;
-  height: 155vh;  
+  min-height: 190vh; 
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+ 
 }
-.section1 {
+
+.section {
   display: flex;
-  flex-direction: row-reverse;
-  height: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
   padding: 20px 30px;
   gap: 50px;
 /* border: 1px solid black; */
-
+padding-bottom: 30px;
 justify-content: center;
 }
 
-.section1 p {
-  font-size: 21px;
-  font-weight: 500;
+.section p {
+  font-size: 15px;
+  font-weight: 200;
   text-align: justify;
-  line-height: 1.3;
-  width: 100%;
+  line-height: 1.2;
+
+  
 }
 
 
 .ConferencesandWeb img {
-  height: 400px;
-  width: 100%;
-  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.39), 10px -10px 10px rgba(0, 0, 0, 0.364);
-  object-fit: cover;
+  height: 25%;
+  width: 30%;
+  object-fit: fill;
   object-position: center;
- margin-top: 78px;
+padding-top: 50px;
 
 }
 
 .ConferencesandWeb h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 900;
-  height: 10%;
-  padding-bottom: 20px;
-  margin-top: -10px;
+  height: 10%;  
+ 
 }
 
 .ConferencesandWeb span {
@@ -48,25 +56,10 @@ justify-content: center;
 
 .ConferencesandWeb ul li {
   font-size: 17px;
- 
+  list-style: none;
 }
 
-.section2 {
-  display: flex;
-  flex-direction: column;
-  /* border: 1px solid black; */
-  font-size: 21px;
-  font-weight: 500;
-  text-align: justify;
-  width: 100%;
- padding:0px  40px;
-  display: flex;
-  align-items: flex-start;
-  height: 100%;
-margin-top: -0px;
-}
-
-.section2 ul  {
+.section ul  {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -75,11 +68,52 @@ margin-top: -0px;
   padding-bottom: -20px;
 }
 
-.section2 ul li {
+.section ul li {
   font-size: 20px;
   text-decoration: none;
 }
-.section2 p{
+.section p{
  text-align: justify;
  
+}
+@media (min-width:200px) and (max-width:800px){
+  .ConferencesandWeb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .ConferencesandWeb img{
+    height: 25%;
+    width: 100%;
+    object-fit: cover;
+
+  } 
+  .ConferencesandWeb h2 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    height: 10%;  
+   
+  }
+  .section{
+    height: 100%;
+    width: 100%;
+  }
+  .section p {
+    font-size: 13px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.2; 
+  }
+  .ConferencesandWeb span {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  .ConferencesandWeb ul li {
+    font-size: 12px;
+    list-style: none;
+  }
+  
 }
