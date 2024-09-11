@@ -38,8 +38,8 @@ overflow-x: hidden;
 
 
 .ConferencesandWeb img {
-  height: 25%;
-  width: 30%;
+  height: auto;
+  max-width: 100%;
   object-fit: fill;
   object-position: center;
 padding-top: 50px;
@@ -86,13 +86,13 @@ padding-top: 50px;
     height: 100%;
   }
   .ConferencesandWeb img{
-    height: 25%;
-    width: 100%;
+    height: auto;
+    max-width: 100%;
     object-fit: cover;
 
   } 
   .ConferencesandWeb h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 900;
     height: 10%;  
    
