@@ -308,7 +308,7 @@ height: 80vh;
 
  }
 .conatctInfo {
-  font-size: 1rem;
+  font-size: 21px;
   font-weight: 500; 
   width: 100%;
 }
@@ -885,7 +885,7 @@ height: 80vh;
   }
   .notifications p{
     height: 5vh;
-   font-size: 7px;
+   font-size: 6px;
    font-weight: 900;
    padding: 5px;
   }
