@@ -1,4 +1,7 @@
+body{
 
+  overflow-x: hidden;
+}
 .ConferencesandWeb {
   display: flex;
   flex-direction: column;
@@ -6,7 +9,7 @@
   width: 100vw;
   align-items: center;
   justify-content: center;
- 
+
 }
 
 .section {
@@ -21,14 +24,15 @@
 /* border: 1px solid black; */
 padding-bottom: 30px;
 justify-content: center;
+
 }
 
 .section p {
-  font-size: 15px;
+  font-size: 21px;
   font-weight: 200;
   text-align: justify;
   line-height: 1.2;
-
+overflow-x: hidden;
   
 }
 
@@ -50,7 +54,7 @@ padding-top: 50px;
 }
 
 .ConferencesandWeb span {
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 700;
 }
 
@@ -69,13 +73,10 @@ padding-top: 50px;
 }
 
 .section ul li {
-  font-size: 20px;
+  font-size: 17px;
   text-decoration: none;
 }
-.section p{
- text-align: justify;
- 
-}
+
 @media (min-width:200px) and (max-width:800px){
   .ConferencesandWeb{
     display: flex;
